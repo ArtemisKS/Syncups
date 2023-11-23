@@ -13,27 +13,6 @@ Celis](https://twitter.com/stephencelis).
   <img alt="video poster image" src="https://d3rccdn33rt8ze.cloudfront.net/episodes/0209.jpeg" width="600">
 </a>
 
-## Call to action!
-
-While we have built the SyncUps application in the style that makes the most sense to us, we know 
-that some of our choices aren’t for everyone. We would love if others fork this repo and rebuild 
-it in the style of their choice.
-
-Don’t like to use an observable model for each screen? Prefer to use `@EnvironmentObject` instead?
-Want to use an architectural pattern such as VIPER? Have a different way of handling dependencies? 
-
-Please show us! Just complete the following steps:
-
-1. [Fork](https://github.com/pointfreeco/syncups/fork) our repo and rebuild the app any way you 
-see fit. If you want to start with Apple’s code rather than ours, you can [download it 
-here][scrumdinger-dl].
-2. Update the Readme.md to describe your choices in rebuilding the app (see [below](#modern-swiftui)
-for ours).
-3. Open a PR to this repo where you add a link to your port in this readme.
-
-We will collect links to the other ports so that there can be a single place to reference many 
-different approaches for building the same application.
-
 ## Overview
 
 The inspiration for this application comes Apple's [Scrumdinger][scrumdinger] tutorial:
@@ -89,14 +68,6 @@ some key additions:
     example, we can write a unit test that proves that when a sync-up meeting's timer runs out the
     screen pops off the stack and a new transcript is added to the sync-up. Such a test would be
     very difficult, if not impossible, without controlling dependencies.
-
-## Ports
-
-Here is a list of ports of the app:
-
-* [Scrumdinger](https://developer.apple.com/tutorials/app-dev-training/getting-started-with-scrumdinger): Apple's original Scrumdinger application.
-* [Composable Architecture](https://github.com/pointfreeco/swift-composable-architecture/tree/main/Examples/SyncUps): A port of the SyncUps app to the Composable Architecture.
-* [https://github.com/nashysolutions/standups](https://github.com/nashysolutions/standups)
 
 [modern-swiftui-collection]: https://www.pointfree.co/collections/swiftui/modern-swiftui
 [scrumdinger]: https://developer.apple.com/tutorials/app-dev-training/getting-started-with-scrumdinger
